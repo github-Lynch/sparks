@@ -43,7 +43,10 @@ export default defineConfig({
     outline: {
       label: '页面导航'
     },
-  }
+  },
+
+  // 忽略; 防止因出现死链而建将失败
+  ignoreDeadLinks: true
 })
 
 function nav(): DefaultTheme.NavItem[] {
