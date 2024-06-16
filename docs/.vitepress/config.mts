@@ -9,6 +9,8 @@ export default defineConfig({
   cleanUrls: true,
   metaChunk: true,
 
+  base: '/sparks/',
+
   // 页签图标
   head: [
     ['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/lynch-07/images@main/20220720202931.jpeg' }]
