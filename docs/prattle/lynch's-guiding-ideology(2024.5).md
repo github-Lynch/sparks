@@ -22,7 +22,7 @@ I want you to be the very best version of yourself that you can be.
 
 投资自己(谨防因小失大).
 
-指定职业规划(或许该定个五年规划?).
+制定职业规划(或许该定个五年规划?).
 
 要让别人能'看'到我, 当个透明人 is not a good idea.
 

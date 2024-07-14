@@ -23,3 +23,4 @@
 - 胆大赢一半
 - Be joy!
 - What's past is prologue
+- 默听穿林打叶声, 何需吟啸惬徐行
