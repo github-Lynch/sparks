@@ -90,10 +90,10 @@ function sidebarPrattle(): DefaultTheme.SidebarItem[] {
       items: [
         { text: '前言', link: 'foreword' },
         { text: 'Lines', link: 'lines' },
-        { text: '优越感', link: 'superiority' },
-        { text: 'Lynch\'s 指导思想(2024.5) ', link: 'lynch\'s-guiding-ideology(2024.5)' },
         { text: 'Career Advice', link: 'career-advice' },
         { text: '人生啊(2024.3)', link: 'about-life(2024.3)' },
+        { text: 'Lynch\'s 指导思想(2024.5) ', link: 'lynch\'s-guiding-ideology(2024.5)' },
+        { text: '优越感', link: 'superiority' },
         { text: '闲言碎语', link: 'gossip' },
       ]
     },
@@ -118,6 +118,7 @@ function sidebarBlog(): DefaultTheme.SidebarItem[] {
         { text: '好用的快捷键与工具分享', link: 'shortcut-key-and-tools' },
         { text: 'Sass note', link: 'sass-note' },
         { text: '风格化和规范', link: 'style-guide' },
+        { text: '偷懒地记一下', link: 'lazy-note' },
       ]
     }
   ]
