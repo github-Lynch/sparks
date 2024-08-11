@@ -49,3 +49,35 @@
     };
     ```
  6. type可以扩展原始数据类型, interface不行; interface无法表达某些复杂类型(比如交叉类型和联合类型), 但是type可以.
+
+---
+## 函数柯里化封装
+```js
+function curry(fn) {
+  // 获取函数的参数个数
+  const count = fn.length;
+
+  // 内部递归函数，用于处理参数
+  function curried(...args) {
+    if (args.length >= count) {
+      // 如果已经传递了足够的参数，则执行原函数
+      return fn(...args);
+    } else {
+      // 否则返回一个新函数，继续接收剩余的参数
+      return (...moreArgs) => curried(...args, ...moreArgs);
+    }
+  }
+
+  return curried;
+}
+
+// 使用示例
+function add(x, y, z) {
+  return x + y + z;
+}
+
+const curriedAdd = curry(add);
+console.log(curriedAdd(1)(2)(3)); // 输出 6
+console.log(curriedAdd(1, 2)(3)); // 输出 6
+console.log(curriedAdd(1)(2, 3)); // 输出 6
+```

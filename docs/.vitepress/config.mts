@@ -113,6 +113,7 @@ function sidebarBlog(): DefaultTheme.SidebarItem[] {
       text: '者也',
       collapsed: false,
       items: [
+        { text: '面经-腾讯外包', link: 'interview-experience-tencent-outsourcing' },
         { text: 'Typora使用手册', link: 'typora-manual' },
         { text: '电脑快捷键', link: 'pc-shortcut' },
         { text: '好用的快捷键与工具分享', link: 'shortcut-key-and-tools' },
