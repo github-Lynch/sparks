@@ -60,7 +60,8 @@ function nav(): DefaultTheme.NavItem[] {
     },
     {
       text: '者也', // 知乎者也; 博客|笔记;
-      link: '/blog/typora-manual',
+      // TODO: 设置为者也区的第一条数据(即最新添加的文章; 还有同步首页的'Crystal'链接的页面)
+      link: '/blog/interview-experience-tencent-outsourcing',
       activeMatch: '/blog/'
     },
     // TODO:

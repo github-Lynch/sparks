@@ -15,7 +15,7 @@ hero:
       link: /prattle/foreword
     - theme: alt
       text: Crystal
-      link: /blog/typora-manual
+      link: /blog/interview-experience-tencent-outsourcing
   image:
     src: https://cdn.jsdelivr.net/gh/lynch-07/images@main/20220720202931.jpeg
     alt: Lynch's LOGO
