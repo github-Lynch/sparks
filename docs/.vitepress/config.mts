@@ -13,15 +13,19 @@ export default defineConfig({
 
   // 页签图标
   head: [
-    ['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/lynch-07/images@main/20220720202931.jpeg' }]
+    ['link', { rel: 'icon', href: 'https://raw.githubusercontent.com/github-Lynch/images/main/lynch.png' }]
   ],
 
   // https://vitepress.dev/reference/default-theme-config
   themeConfig: {
     // 站点logo
-    logo: 'https://cdn.jsdelivr.net/gh/lynch-07/images@main/20220720202931.jpeg',
+    logo: 'https://raw.githubusercontent.com/github-Lynch/images/main/lynch.png',
 
     nav: nav(),
+
+    search: {
+      provider: 'local'
+    },
 
     sidebar: {
       '/prattle/': { base: '/prattle/', items: sidebarPrattle() },
@@ -60,8 +64,8 @@ function nav(): DefaultTheme.NavItem[] {
     },
     {
       text: '者也', // 知乎者也; 博客|笔记;
-      // TODO: 设置为者也区的第一条数据(即最新添加的文章; 还有同步首页的'Crystal'链接的页面)
-      link: '/blog/interview-experience-tencent-outsourcing',
+      // 简单粗暴处理, 后面添加一个[!]告诉 TS 引擎 sidebarBlog()[0].items 一定存在,
+      link: '/blog/' + sidebarBlog()[0].items![0].link,
       activeMatch: '/blog/'
     },
     // TODO:
@@ -76,7 +80,7 @@ function nav(): DefaultTheme.NavItem[] {
         },
         {
           text: 'logo',
-          link: 'https://cdn.jsdelivr.net/gh/lynch-07/images@main/20220720202931.jpeg'
+          link: 'https://raw.githubusercontent.com/github-Lynch/images/main/lynch.png'
         }
       ]
     } */

@@ -25,3 +25,4 @@
 - What's past is prologue
 - 默听穿林打叶声, 何需吟啸惬徐行
 - I want you to be the very best version of yourself that you can be
+- 不要以你现在的能力, 束缚对未来的想象

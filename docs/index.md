@@ -13,11 +13,11 @@ hero:
     - theme: brand
       text: Let Me Know You
       link: /prattle/foreword
-    - theme: alt
-      text: Crystal
-      link: /blog/interview-experience-tencent-outsourcing
+    # - theme: alt
+    #   text: Crystal
+    #   link: /blog/xxx
   image:
-    src: https://cdn.jsdelivr.net/gh/lynch-07/images@main/20220720202931.jpeg
+    src: https://raw.githubusercontent.com/github-Lynch/images/main/lynch.png
     alt: Lynch's LOGO
 
 features:
