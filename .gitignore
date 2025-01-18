@@ -5,3 +5,4 @@ docs/.vitepress/cache
 temp
 .temp
 .vscode
+temp.js
